@@ -139,6 +139,7 @@ main{
 }
 .blg3 a{
     text-decoration: none;
+    color:  #161616;;
 }
 .blogs-cards{
     margin-bottom: 130px;
@@ -189,7 +190,6 @@ main{
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-
     text-align: center;
     color: #4D4D4D;
 }
