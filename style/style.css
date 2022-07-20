@@ -1,0 +1,278 @@
+/* ************** Foonts style *************** */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Poppins:wght@400;500&display=swap');
+
+/* **************  Common styles *********************** */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+/* *************** Header section ******************* */
+header{
+    margin-bottom: 100px;
+    
+}
+.header-section{
+    width: 1200px;
+    height: 570px;
+    background-color: #161616;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    border-radius: 30px;
+
+}
+.header-info{
+    width: 50%;
+}
+.header-details{
+    padding: 50px 24px 111px 106px;
+
+}
+.header-details h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 0;
+    color: #FFFFFF;
+}
+.header-details p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.header-details button{
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 5px;
+    border: none;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    display: inline;
+}
+.arw{
+    margin-left: 10px;
+    font-size: 16px;
+}
+.banner-img img{
+    padding-top: 20px;
+} 
+/* *******************Main section *************** */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blogs-section{
+    width: 1250px;
+    display: grid;
+    grid-template-columns: repeat(1, 300px) repeat(1, 1fr);
+    gap: 24px;
+}
+.blogs-btn{
+    width: 305px;
+    height: 305px;
+    background-color: #161616;
+    border-radius: 10px;
+}
+.all-blogs{
+    padding: 30px ;
+}
+.match{
+    margin-bottom: 25px;
+}
+.blog{
+    margin-top: 25px;
+    
+}
+.blg1{
+    width: 252px;
+    height: 64px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161616;
+    border: none;
+    
+}
+.blg1 a{
+    text-decoration: none;
+}
+.blg2{
+    width: 252px;
+    height: 64px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161616;
+    border: none;
+}
+.blg3{
+    width: 252px;
+    height: 64px;
+    background-color: #DD0000;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border: none;
+}
+.blogs-cards{
+    margin-bottom: 130px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 16px;
+}
+.card1{
+    width: 290px;
+    height: 362px;
+    border: 0.02px solid rgb(196, 194, 194);
+    border-radius: 10px;
+}
+.card1 > img{
+    width: 100%;
+    margin-bottom: -3px;
+}
+.card-info{
+    padding: 20px;
+}
+.card-info-button{
+    width: 100px;
+    height: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+    margin-bottom: 5px;
+}
+.card-details{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+margin-top: 6px;
+color: #161616;
+}
+.card-details p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.time-chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.time{
+    display: flex;
+    align-items: center;
+}
+.time-img{
+    font-size: 0px;
+}
+.time-hour{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(22, 22, 22, 0.7);
+    margin-left: 10px;
+}
+.chat{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+/* ******************** Footer section *************** */
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #161616;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-info h1{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.footer-section hr{
+    width: 1200px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+.footer-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-contact-info{
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #B9B9B9;
+    margin-bottom: 20px;
+}
+.contact-icon{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.social{
+    background-color: #B9B9B9;
+    padding: 5px 10px;
+    border-radius: 50%;
+    /* margin-right: 20px; */
+}
+.icon{
+    font-size: 16px;
+    
+}
+
+
