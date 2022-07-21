@@ -90,6 +90,9 @@ main{
 .all-blogs{
     padding: 30px ;
 }
+.view{
+    display: none;
+}
 .match{
     margin-bottom: 25px;
 }
